@@ -86,7 +86,7 @@ global.loadDatabase = async function loadDatabase() {
 };
 loadDatabase();
 
-/* Creditos a Otosaka (https://wa.me/51993966345) */
+/* Creditos a Aleizn (https://wa.me/51914079837) */
 
 var _0x3fb854 = _0x5872;
 function _0x5872(_0x297e08, _0x4da48b) {
@@ -193,7 +193,7 @@ const connectionOptions = {
   msgRetryCounterMap,
   logger: pino({level: "silent"}),
   auth: state,
-  browser: ["Dorrat-Bot", "Safari", "9.7.0"],
+  browser: ["Aleizn-MD", "Safari", "9.7.0"],
   version,
 };
 
@@ -266,7 +266,7 @@ global.reloadHandler = async function (restatConn) {
     conn.ev.off("creds.update", conn.credsUpdate);
   }
   conn.welcome =
-    "┏━━━━━━━━━━━━\n┃──〘 *WELCOME* 〙──\n┃━━━━━━━━━━━━\n┃ *_✨ @user bienvenid@ a_* \n┃ *_@subject ✨_*\n┃\n┃=> *_En este grupo podrás_*\n┃ *_encontrar:_*\n┠⊷ *Amistades 🫂* \n┠⊷ *Desmadre 💃🕺* \n┠⊷ *Relajo 💅* \n┠⊷ *Enemig@s 🥵* :\n┠⊷ *Un Bot Sexy*\n┃\n┃=> *_Puedes solicitar mi lista de_*\n┃ *_comandos con:_*\n┠⊷ *#menu*\n┃\n┃=> *_Aquí tienes la descripción_* \n┃ *_del grupo, léela!!_*\n┃\n\n@desc\n\n┃ \n┃ *_🔰  Disfruta de tu_* \n┃ *_estadía en el grupo  🔰_*  \n┃\n┗━━━━━━━━━━━";
+    "┏━━━━━━━━━━━━\n┃──〘 *WELCOME* 〙──\n┃━━━━━━━━━━━━\n┃ *_✨ @user bienvenid@ a_* \n┃ *_@subject ✨_*\n┃\n┃=> *_En este grupo podrás_*\n┃ *_encontrar:_*\n┠⊷ *Amistades 🫂* \n┠⊷ *Desmadre 💃🕺* \n┠⊷ *Relajo 💅* \n┠⊷ *Enemig@s 🥵* :\n┠⊷ *Un Bot Sexy*\n┃\n┃=> *_Puedes solicitar mi lista de_*\n┃ *_comandos con:_*\n┠⊷ *.menu*\n┃\n┃=> *_Aquí tienes la descripción_* \n┃ *_del grupo, léela!!_*\n┃\n\n@desc\n\n┃ \n┃ *_🔰  Disfruta de tu_* \n┃ *_estadía en el grupo Aleizn-MD 🔰_*  \n┃\n┗━━━━━━━━━━━";
   conn.bye = "*╔══════════════*\n*╟❧ @user*\n*╟❧ 𝙷𝙰𝚂𝚃𝙰 𝙿𝚁𝙾𝙽𝚃𝙾 👋🏻* \n*╚══════════════*";
   conn.spromote = "『❗』 *@user 𝚂𝙴 𝚂𝚄𝙼𝙰 𝙰𝙻 𝙶𝚁𝚄𝙿𝙾 𝙳𝙴 𝙰𝙳𝙼𝙸𝙽𝚂!!*";
   conn.sdemote = "『❗』 *@user 𝙰𝙱𝙰𝙽𝙳𝙾𝙽𝙰 𝙴𝙻 𝙶𝚁𝚄𝙿𝙾 𝙳𝙴 𝙰𝙳𝙼𝙸𝙽𝚂 !!*";
